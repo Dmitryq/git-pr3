@@ -1,4 +1,4 @@
 import datetime
 
 print("Hello world!")
-print("Текущая дата: " + str(datetime.datetime.now()))
+print("Текущая дата: " + str(datetime.datetime.now().strftime('%Y-%m-%d %H:%M')))
